@@ -530,7 +530,7 @@ hr {
 	max-width: 750px;
 }
 
-.contact-form input {
+.contact-form input, textarea {
 	display: flex;
 	background-color: #C4C4C4;
     border-radius: 10px;
@@ -543,11 +543,12 @@ hr {
     max-width: 750px;
 }
 
-.contact-form > input {
-	height: 79px;
+.contact-form > textarea {
+	resize: none;
+	height: 189px;
 	margin-top: 46px;
 	margin-bottom: 45px;
-	padding-bottom: 169px;
+	padding: 30px 50px;
 }
 
 .contact-form button {
